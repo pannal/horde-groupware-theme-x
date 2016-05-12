@@ -1,0 +1,68 @@
+/* Global */
+.nojserror {
+    color: #F23D30;
+}
+
+/* SpellChecker styles. */
+.spellcheckChecking,
+.spellcheckIncorrect {
+    color: #F23D30;
+}
+.spellcheckCorrected {
+    color: #32AD32;
+}
+
+/* Message List */
+.horde-buttonbar,
+#msglistHeaderHoriz .msgSize {
+    background-color: #ddd;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Rows */
+div.vpRowSelected {
+    background-color: #bbb !important;
+    color: #000;
+}
+
+/* Checkbox images */
+.msCheck:hover {
+    background-image: url("../graphics/checkbox_over.png") !important;
+}
+.msCheckOn,
+div.vpRowSelected .msCheck {
+    background-image: url("../graphics/checkbox_on.png");
+}
+
+/* Rows (vertical mode) */
+div.vpRowVert div.msgSubject {
+    color: #444;
+}
+
+/* ViewPort - scroller */
+.vpScroll {
+    background: #ddd;
+}
+.vpScrollCursor {
+    background: #fff;
+}
+
+#composeContainer .header, #qreply .header {
+    background-color: #ddd;
+}
+.msgwrite {
+    background-color: #eee;
+}
+
+/* Attachment file list */
+#attach_list span.attachName:hover {
+    color: #F23D30;
+}
+.dragdrop {
+    color: #F23D30;
+}
+
+/* Search-related styles */
+#searchbar {
+    background-color: #fafafa;
+}

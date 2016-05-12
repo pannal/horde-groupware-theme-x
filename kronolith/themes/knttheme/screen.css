@@ -1,0 +1,41 @@
+/* Calendar styles. */
+table.kronolith-view tr {
+    background-color: #bbb;
+}
+.kronolith-view-head table td, table.kronolith-view-head td,
+.kronolith-view-head th, table .kronolith-view-head th {
+    font-size: 110%;
+}
+table.kronolith-view td.kronolith-first-col,
+table.kronolith-view th.kronolith-first-col {
+    background-color: #bbb;
+}
+.kronolith-weekend, .kronolithViewDay .kronolith-weekend {
+    background: #eee;
+}
+.kronolith-today, .kronolithViewDay .kronolith-today {
+    background-color: #2aa5d6;
+}
+
+/* Mini calendar */
+tr.kronolith-minical-nav, tr.kronolith-minical-nav th {
+    background-color: #ddd;
+}
+.kronolith-minical .kronolith-selected,
+#horde-sidebar .kronolith-minical .kronolith-selected a {
+    background-color: #666;
+}
+.kronolith-minical .kronolith-today,
+.kronolith-minical .kronolith-today:hover,
+.kronolith-minical .kronolith-today a,
+.kronolith-minical .kronolith-today:hover a,
+#horde-sidebar .kronolith-minical .kronolith-today a {
+    background-color: #b6ff38 !important;
+    color: #222;
+}
+
+/* Event form. */
+#eventform .warning, #deleteform .warning {
+    background: #E9E9C4;
+    border: 1px solid #E9E9C4;
+}

@@ -1,0 +1,66 @@
+/* Prefs management styles. */
+table.flagmanagement thead td {
+    font-weight: normal;
+}
+table.searchesmanagement td.searchdescription {
+    background-color: #e0eefd;
+}
+table.remotemanagement td.required, .remoteNotSecure {
+    color: #F23D30;
+}
+.remoteSecure {
+    color: #32AD32;
+}
+
+/* Prefs styles. */
+.prefsPgpWarning, .prefsSmimeWarning {
+    color: #F23D30;
+}
+.prefsAclNegativeLabel {
+    border: 1px dotted #F23D30;
+    color: #F23D30;
+}
+.prefsViews {
+    font-weight: normal;
+}
+
+/* Quota styles. */
+.quotawarn {
+    color: #b6ff38;
+    font-weight:normal;
+}
+.quotaalert {
+    color: #F23D30;
+    font-weight:normal;
+}
+
+/* Large addresslist display. */
+.largeaddrlist, .largeaddrlistlimit {
+    color: #ddd;
+    font-weight: normal;
+}
+
+/* Key import popup. */
+.importKeyOr {
+    color: #F23D30 !important;
+    font-weight: normal;
+}
+.importKeyText, .importKeyUpload {
+    font-weight: normal;
+}
+
+/* Inline display (Horde_Mime_Viewer) styles. */
+.mimeStatusMessageTable {
+    background: #fdcbbe;
+    border: 1px solid #ff7a59;
+    color: #222;
+}
+
+/* Autocomplete styles. */
+.impACBox {
+    background-color: #f8f8f8;
+}
+.impACListItemBad {
+    background-color: #F23D30;
+}
+}

@@ -1,0 +1,556 @@
+/* Global default styles. */
+
+body, input, select, textarea, .inProgress {
+    font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+}
+body {
+    font-size: 80%;
+}
+
+p {
+    margin: 5px 10px;
+
+}
+
+.headerbox {
+    border: 1px solid #aaa;
+}
+
+.header {
+    background: #eee;
+    font-weight: normal;
+    padding: 5px 10px;
+}
+
+a {
+    color: #333;
+}
+
+.selected {
+    background: #bbcbff;
+}
+
+.selected-over {
+    background: #bbcbee;
+}
+
+/* Table styles. */
+.selectedRow, tr.selectedRow td, .selectedRow a {
+    background-color: #333;
+}
+
+.sortdown, .sortup {
+    font-weight: normal;
+}
+
+/* Horde UI standard tables */
+table.horde-table th.sortdown, table.horde-table th.sortup {
+    font-weight: normal;
+}
+
+.horde-table-header, table.horde-table thead tr, table.horde-table th {
+    background-image: none;
+    background-color: #e0eefd;
+    border-top: 1px solid #bbb;
+}
+
+/* Form styles. */
+.horde-form-buttons {
+    background-color: #f5f5f5;
+}
+.horde-form .horde-form-buttons {
+    padding-left: 15%;
+}
+.horde-form td.horde-form-label {
+    padding: 5px 9px 0 0;
+    text-align: right;
+}
+.horde-form-error {
+    color: #F23D30;
+}
+input, select, textarea {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+}
+input:focus, textarea:focus, select:focus {
+    border-color: #ddd;
+}
+input[type="submit"], input[type="button"], input[type="reset"],
+a.horde-button, a.horde-default, a.horde-create, a.horde-delete {
+    background-image: none;
+    background-color: #ddd;
+    color: #222;
+    font-size: 110%;
+    border-color: none;
+}
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover,
+a.horde-button:hover, a.horde-default:hover, a.horde-create:hover, a.horde-delete:hover {
+    background-color: #ccc;
+    border: none;
+}
+input.horde-default, a.horde-default {
+    background-image: none;
+    background-color: #2AA5D6;
+    border: none;
+    color: #222;
+    font-size: 110%;
+}
+input.horde-default:hover, a.horde-default:hover {
+    background-color: #b6ff38;
+}
+input.horde-create, a.horde-create {
+    background-image: none;
+    background-color: #2AA5D6;
+    border: none;
+    color: #222;
+}
+input.horde-create:hover, a.horde-create:hover {
+    background-color: #b6ff38;
+}
+input.horde-delete, a.horde-delete {
+    background-image: none;
+    background-color: #ddd
+    border-width: 0px;
+    border-color: #ddd;
+}
+input.horde-cancel {
+    color: #195A7A;
+}
+a.horde-cancel {
+    color: #195A7A;
+}
+form[action^="https://"] input[type="submit"].horde-default {
+    background-image: none;
+    padding: 2px 4px;
+}
+pre, code, .fixed, table.lineNumbered * {
+    font-family: Menlo,Consolas,"Lucida Console","DejaVu Sans Mono",monospace;
+}
+
+/* Styles for email-like messages. */
+.quoted1 {
+    color: #934C93;
+    border: none;
+    background-color: #eee;
+}
+.quoted2 {
+    color: #348799;
+    border: none;
+}
+.quoted3 {
+    color: #C93F38;
+    border: none;
+}
+.quoted4 {
+    color: #4E42BD;
+    border: none;
+}
+.quoted5 {
+    color: #793a0e;
+    border: none;
+}
+
+/* Various popup and status layers. */
+.notices li, .notice {
+    font-weight: normal;
+    background: #b2e2eb;
+}
+.inProgress {
+    font-size: 80%;
+    padding: 2px;
+    color: #fff;
+    background: #F23D30;
+}
+
+/* Quick add popup styles */
+.quickAdd {
+    background: #eee;
+}
+.quickAdd label {
+    font-weight: normal;
+}
+
+/* Modal forms */
+div.modal-form label {
+    font-weight: normal;
+}
+
+/* Main body. */
+.horde-ajax #horde-body {
+    top: 72px;
+}
+
+/* Tab styles. */
+.tabset {
+    background-image: none;
+    background-color: #eee;
+    border-bottom: 1px solid #bbb;
+}
+.tabset li {
+    background-image: none;
+    background-color: #ccc;
+    border-top: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+}
+.tabset li a {
+    color: #222;
+    font-weight: normal;
+    font-size: 110%;
+}
+.tabset li.horde-active a {
+    color: #222;
+}
+
+/* Preferences. */
+.prefsOverview h2 {
+    font-weight: normal;
+}
+.prefsOverview dt a {
+    font-weight: normal;
+}
+div.prefsErrorDiv {
+    border: 1px solid #F23D30;
+}
+div.prefsError {
+    color: #F23D30;
+}
+
+/* Block styles. */
+.currentBlock {
+    border: 2px solid gray;
+}
+
+/* Help styles. */
+.help em.helpTip {
+    color: #222;
+    background: #e0f0e0;
+}
+.help em.helpWarn {
+    color: #222;
+    background: #f0e0e0;
+}
+
+/* Calendar Popup. */
+.hordeCalendarPopup thead {
+    font-weight: normal;
+}
+.hordeCalendarPopup tbody a:hover {
+    background: #E9E9C4;
+}
+.hordeCalendarPopup .hordeCalendarCurrent {
+    font-weight: normal;
+    background: #E0F3F7;
+}
+.hordeCalendarPopup .hordeCalendarToday {
+    font-weight: normal;
+}
+
+/* Redbox styles. */
+.RB_confirm {
+    background: #E9E9C4;
+}
+#RB_info {
+    background: #b2e2eb;
+}
+
+/* Color picker styles. */
+#color-picker {
+    border: 1px solid #212121;
+}
+#color-picker .north {
+    background: #212121;
+}
+
+/* SpellChecker styles. */
+.spellcheckChecking, .spellcheckIncorrect {
+    color: #F23D30;
+}
+.spellcheckCorrected {
+    color: #32AD32;
+}
+
+/* Growler notice styling. */
+#Growler div.GrowlerNoticeHead {
+    font-weight: normal;
+}
+#GrowlerLog li.GrowlerInfo {
+    font-weight: normal;
+}
+#GrowlerLog li.GrowlerNoAlerts {
+    background: #999;
+}
+.horde-success {
+    border-color: #60d84d;
+    background-color: #6fee5b;
+    border-radius: 4px;
+}
+.horde-error {
+    background-color: #ff3961;
+    border-color: #ec4040;
+    border-radius: 4px;
+}
+.horde-warning {
+    background-color: #b6ff38;
+    border-color: #e72e53;
+    border-radius: 4px;
+}
+.horde-message {
+    background-color: #2aa5d6;
+    border-color: #2794bf;
+    border-radius: 4px;
+}
+.horde-alarm {
+    background-color: #45eed9;
+    border-color: #04d2b8;
+    border-radius: 4px;
+}
+
+/* Context Menus */
+.context, .horde-buttonbar li div {
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    border-bottom-width: 0;
+    -moz-box-shadow: 0px 5px 5px -3px #888;
+    -webkit-box-shadow: 0px 5px 5px -3px #888;
+    box-shadow: 0px 5px 5px -3px #888;
+}
+.context a, .context a:visited, .horde-buttonbar li div li a {
+    border-bottom: none;
+    color: #222;
+}
+.context a:hover, .context a.contextSubmenu.contextHover,
+.horde-buttonbar li div li a:hover {
+    background-color: #ccc !important;
+}
+.context div.sep {
+    background: none;
+    height: 1px !important;
+}
+.contextSelected {
+    background-color: #ccc !important;
+    color: #222 !important;
+}
+
+/* Uploader */
+.hordeUploaderFooter {
+  color: #444;
+}
+
+/* Topbar. */
+div.horde-navipoint:active, div.horde-navipoint:hover{
+    background-color: #2aa5d6;
+}
+
+a.horde-mainnavi:link, a.horde-mainnavi:visited, a.horde-mainnavi:active {
+    color: #eee;
+}
+.horde-point-center:hover, a.horde-mainnavi:hover,
+a.horde-mainnavi-active:link, a.horde-mainnavi-active:visited,
+a.horde-mainnavi-active:active {
+    color: #eee;
+}
+.horde-dropdown ul {
+    position: relative;
+    padding: 16px 0 0;
+    background-color:rgba(0,255,0,0);
+    border: none;
+}
+.horde-dropdown ul li {
+    border-bottom: none;
+    background-color: #222;
+}
+.horde-dropdown ul li:hover {
+    background-color: #2aa5d6;
+}
+.horde-dropdown ul li ul li:first-child {
+    margin-top: -15px;
+}
+.horde-drowdown-str {
+    padding: 8px 21px 6px 6px;
+}
+.horde-drowdown-str:hover a {
+    color: #eee;
+}
+
+#horde-head {
+    width: 100%;
+    height: 50px;
+    background-color: #222;
+    background-image: none;
+    border-bottom: 2px solid #222;
+}
+#horde-logo {
+    float: left;
+    width: 88px;
+    height: 33px;
+    margin: 15px 10px 0 15px;
+    background-image: url("graphics/logo.png");
+    background-repeat: no-repeat;
+}
+#horde-version {
+    display: none;
+}
+#horde-navigation {
+    padding: 12px 10px 8px;
+    margin-top: 4px;
+    float: left;
+    font-size: 120%;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: none;
+    cursor: default;
+}
+.horde-navipoint {
+    float: left;
+}
+.horde-navipoint:hover .horde-point-arrow {
+    background-image: url("graphics/navi-arrow-active.png");
+}
+.horde-dropdown ul li.arrow:hover {
+    background-image: url("graphics/navi-subnavi-active.png");
+}
+.horde-navipoint:hover .horde-point-center a {
+    color: #eee;
+}
+.horde-point-arrow, .horde-point-arrow-active {
+    float: right;
+    width: 13px;
+    height: 8px;
+    margin: 5px 2px 0 5px;
+    background-image: url("graphics/navi-arrow-normal.png");
+    background-repeat: no-repeat;
+    text-indent: -10000px;
+    overflow: hidden;
+}
+.horde-point-arrow-active {
+    background-image: url("graphics/navi-arrow-active.png");
+}
+.horde-point-left-active {
+    background-image: none;
+}
+.horde-point-center-active {
+    background-image: none;
+}
+.horde-point-right-active {
+    background-image: none;
+}
+#horde-search #horde-search-input, #horde-search .horde-fake-input {
+    background: #eee;
+}
+#horde-logout, #horde-login {
+    margin: 20px 10px 0 0;
+    background-image: url("graphics/logout.png");
+}
+#horde-login {
+    background-image: url("graphics/login.png");
+}
+#horde-login-pass-capslock {
+    font-weight: normal;
+}
+
+/* Sub bar. */
+#horde-sub {
+    background-color: #222;
+}
+#horde-date {
+    float: right;
+}
+
+/* Sidebar. */
+#horde-sidebar {
+    background-color: #f5f5f5;
+}
+#horde-sidebar a {
+    color: #222;
+}
+
+.horde-new {
+    height: 30px;
+    background-color: #2aa5d6;
+    border: 1px solid #aaa;
+    border-bottom: 1px solid #7c7c7c;
+    background-image: none;
+    overflow: hidden;
+    font-size: 150%;
+    font-weight: normal;
+    color: #fff;
+    padding-bottom: 3px;
+    text-shadow: none;
+    border-radius: 4px;
+    margin: 3px 3px 9px;
+    box-shadow: 0px 13px 13px -13px #000;
+}
+.horde-portal-new {
+    float: left;
+    border-right: none;
+    margin-right: 10px;
+    height: 30px;
+    width: 15%;
+}
+.horde-portal-new:hover {
+    background-color: #b6ff38;
+    color: #222;
+}
+
+#horde-sidebar .horde-new-link a {
+    padding: 5px 5px 5px 15px;
+    margin: 0;
+    background-image: none;
+    color: #fff;
+    display: block;
+}
+#horde-sidebar .horde-new-link a:hover, .horde-new-link a:hover {
+    background-color: #b6ff38;
+    text-decoration: none;
+    color: #333;
+}
+.horde-new-split {
+    background-image: none;
+}
+.horde-new-extra {
+    background-image: none;
+}
+#horde-sidebar h3 {
+    font-weight: normal;
+}
+.horde-resource-on, .horde-resource-off:hover {
+    background-image: url("graphics/checkbox_on.png");
+}
+.horde-resource-on.horde-radiobox, .horde-resource-off.horde-radiobox:hover {
+    background-image: url("graphics/radiobox_on.png");
+}
+.horde-resource-off.horde-radiobox {
+    background-image: url("graphics/radiobox_off.png");
+}
+.horde-sidebar-split {
+    border-top: 1px solid #ccc;
+}
+.horde-subnavi-active, .horde-subnavi:hover{
+    background-image: none;
+    background-color: #ccc;
+}
+
+/* Buttonbar. */
+.horde-buttonbar {
+    background-image: none;
+    background-color: #eee;
+}
+.horde-buttonbar, .horde-buttonbar a, .horde-buttonbar a:link,
+.horde-buttonbar a:visited, .horde-buttonbar a:active {
+    color: #222;
+    font-weight: normal;
+}
+.horde-buttonbar select {
+    font-weight: normal;
+}
+.horde-buttonbar li {
+    background-image: none;
+    border-right: 1px solid #bbb;
+}
+.horde-buttonbar li:hover, .horde-buttonbar li.horde-active {
+    background-image:none;
+    background-color: #c5c5c5;
+}
+

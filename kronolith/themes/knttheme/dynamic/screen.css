@@ -1,0 +1,34 @@
+/* Quick edit */
+.kronolithDialogWarning strong {
+    color: #F23D30;
+}
+
+/* Event/task form dialogs */
+ul.horde-tags li:hover {
+    background-color: #E9E9C4;
+}
+
+/* Main view week and day */
+#kronolithTimeMarker {
+    background-color: #F23D30;
+}
+
+/* Main view month */
+.kronolithMore {
+    color: #222;
+}
+
+/* Main view tasks. */
+#kronolithViewTasksBody div.kronolithTaskCheckbox {
+    background: url("../graphics/checkbox_off.png") no-repeat;
+}
+#kronolithViewTasksBody div.kronolithTaskCheckbox:hover {
+    background: url("../graphics/checkbox_on.png") no-repeat;
+}
+#kronolithViewTasksBody td.kronolithTaskCompleted div {
+    background: url("../graphics/checkbox_on.png") no-repeat;
+}
+#kronolithViewTasksBody td.kronolithTaskDue {
+    color: #F23D30;
+}
+
