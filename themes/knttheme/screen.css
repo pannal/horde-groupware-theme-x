@@ -109,7 +109,7 @@ input.horde-create:hover, a.horde-create:hover {
 }
 input.horde-delete, a.horde-delete {
     background-image: none;
-    background-color: #ddd
+    background-color: #ddd;
     border-width: 0px;
     border-color: #ddd;
 }
