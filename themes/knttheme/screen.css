@@ -12,6 +12,10 @@ p {
 
 }
 
+.horde-ajax {
+    overflow: visible;
+}
+
 .headerbox {
     border: 1px solid #aaa;
 }
@@ -375,6 +379,10 @@ a.horde-mainnavi-active:active {
 .horde-dropdown ul li:hover {
     background-color: #2aa5d6;
 }
+.horde-dropdown ul li ul {
+    margin-top: 0;
+    top: 15px;
+}
 .horde-dropdown ul li ul li:first-child {
     margin-top: -15px;
 }
@@ -418,6 +426,9 @@ a.horde-mainnavi-active:active {
 }
 .horde-navipoint {
     float: left;
+}
+.horde-navipoint .horde-icon-settings:hover {
+    background-image: url("graphics/settings.png");
 }
 .horde-navipoint:hover .horde-point-arrow {
     background-image: url("graphics/navi-arrow-active.png");
