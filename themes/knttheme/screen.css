@@ -54,8 +54,13 @@ table.horde-table th.sortdown, table.horde-table th.sortup {
 
 .horde-table-header, table.horde-table thead tr, table.horde-table th {
     background-image: none;
-    background-color: #e0eefd;
+    background-color: #eceff0;
     border-top: 1px solid #bbb;
+}
+
+#msglistHeaderVert {
+    border-top: 0;
+    border-bottom: 1px solid #d0d0d0;
 }
 
 /* Form styles. */
@@ -85,7 +90,7 @@ a.horde-button, a.horde-default, a.horde-create, a.horde-delete {
     background-color: #ddd;
     color: #222;
     font-size: 110%;
-    border-color: none;
+    border: none;
 }
 input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover,
 a.horde-button:hover, a.horde-default:hover, a.horde-create:hover, a.horde-delete:hover {
@@ -96,11 +101,11 @@ input.horde-default, a.horde-default {
     background-image: none;
     background-color: #2AA5D6;
     border: none;
-    color: #222;
+    color: #fff;
     font-size: 110%;
 }
 input.horde-default:hover, a.horde-default:hover {
-    background-color: #b6ff38;
+    background-color: #0d8bbd;
 }
 input.horde-create, a.horde-create {
     background-image: none;
@@ -119,6 +124,12 @@ input.horde-delete, a.horde-delete {
 }
 input.horde-cancel {
     color: #195A7A;
+    background: 0 none;
+    border: 0;
+}
+input.horde-cancel:hover {
+    background: 0 none;
+    border: 0;
 }
 a.horde-cancel {
     color: #195A7A;
@@ -515,7 +526,7 @@ a.horde-mainnavi-active:active {
     width: 15%;
 }
 .horde-portal-new:hover {
-    background-color: #b6ff38;
+    background-color: #0d8bbd;
     color: #222;
 }
 
@@ -527,9 +538,9 @@ a.horde-mainnavi-active:active {
     display: block;
 }
 #horde-sidebar .horde-new-link a:hover, .horde-new-link a:hover {
-    background-color: #b6ff38;
+    background-color: #0d8bbd;
     text-decoration: none;
-    color: #333;
+    color: #fff;
 }
 .horde-new-split {
     background-image: none;

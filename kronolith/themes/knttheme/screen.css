@@ -30,8 +30,8 @@ tr.kronolith-minical-nav, tr.kronolith-minical-nav th {
 .kronolith-minical .kronolith-today a,
 .kronolith-minical .kronolith-today:hover a,
 #horde-sidebar .kronolith-minical .kronolith-today a {
-    background-color: #b6ff38 !important;
-    color: #222;
+    background-color: #2aa5d6 !important;
+    color: #fff;
 }
 
 /* Event form. */
