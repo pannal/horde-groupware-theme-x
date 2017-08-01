@@ -63,4 +63,13 @@ table.remotemanagement td.required, .remoteNotSecure {
 .impACListItemBad {
     background-color: #F23D30;
 }
+
+#horde-sidebar .horde-new-link a {
+    padding: 2px 5px 5px 15px;
+}
+
+#horde-sidebar .horde-new-link a:hover, .horde-new-link a:hover {
+    background-color: #0d8bbd;
+    color: #fff;
+}
 }
