@@ -345,6 +345,19 @@ div.horde-navipoint:active, div.horde-navipoint:hover{
 a.horde-mainnavi:link, a.horde-mainnavi:visited, a.horde-mainnavi:active {
     color: #eee;
 }
+
+.horde-point-center, .horde-point-center-active {
+    padding: 0;
+    height: 34px;
+}
+
+.horde-point-center > a.horde-mainnavi, .horde-point-center > a.horde-mainnavi-active,
+.horde-point-center-active > a.horde-mainnavi, .horde-point-center-active > a.horde-mainnavi-active {
+    height: 34px;
+    line-height: 34px;
+    padding: 0;
+}
+
 .horde-point-center:hover, a.horde-mainnavi:hover,
 a.horde-mainnavi-active:link, a.horde-mainnavi-active:visited,
 a.horde-mainnavi-active:active {
@@ -352,7 +365,6 @@ a.horde-mainnavi-active:active {
 }
 .horde-dropdown ul {
     position: relative;
-    padding: 16px 0 0;
     background-color:rgba(0,255,0,0);
     border: none;
 }
@@ -392,9 +404,11 @@ a.horde-mainnavi-active:active {
     display: none;
 }
 #horde-navigation {
-    padding: 12px 10px 8px;
-    margin-top: 4px;
-    float: left;
+    position: relative;
+    top: 16px;
+    float: none;
+    margin: 0;
+    padding: 0;
     font-size: 120%;
     color: #fff;
     font-weight: normal;
@@ -418,7 +432,7 @@ a.horde-mainnavi-active:active {
     float: right;
     width: 13px;
     height: 8px;
-    margin: 5px 2px 0 5px;
+    margin: 15px 2px 0 5px;
     background-image: url("graphics/navi-arrow-normal.png");
     background-repeat: no-repeat;
     text-indent: -10000px;
