@@ -72,3 +72,15 @@ table.remotemanagement td.required, .remoteNotSecure {
     background-color: #0d8bbd;
     color: #fff;
 }
+
+
+/* msg list */
+div.vpRowVert.flagUnseen  div.msgSubject {
+    color: #333;
+    font-weight: bold;
+}
+
+div.msgFrom a {
+    color: #333;
+    font-weight: normal;
+}
