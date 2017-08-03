@@ -357,6 +357,10 @@ div.horde-navipoint:active, div.horde-navipoint:hover{
     background-color: #2aa5d6;
 }
 
+a.horde-mainnavi, a.horde-mainnavi-active {
+    display: block;
+}
+
 a.horde-mainnavi:link, a.horde-mainnavi:visited, a.horde-mainnavi:active {
     color: #eee;
 }
